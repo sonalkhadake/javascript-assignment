@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Javascript assignment1</title>
+
+    </head>
+    <body> 
+        <h2>Find the longest country name from given array?</h2>  
+<script>
+    function largestString(arr) {
+        var largest="";
+        arr.map(function(str){
+            if (str.length > largest.length){
+                largest = str;
+            }
+
+        }) 
+        return largest;
+        
+        
+    } 
+    console.log(largestString(["India", "South Afrika", "United State of America", "Newsland"]))
+
+</script>
+    </body>
+    
+</html>
